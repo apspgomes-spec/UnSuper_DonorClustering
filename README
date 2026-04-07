@@ -1,20 +1,16 @@
-# Unsupervised learning of donor phenotypes in ORCHID
+# Unsupervised clustering of donor phenotypes (ORCHID)
 
-This repository contains a cleaned notebook and Python script for unsupervised clustering analyses of ORCHID donor data.
+## Overview
+This project applies unsupervised learning to identify physiological donor phenotypes and evaluate their association with procurement and transplantation outcomes.
 
-## Summary
-The project applies unsupervised learning to identify physiological donor phenotypes across donation scenarios and evaluate whether similar donor profiles experience different procurement outcomes, suggesting system-level variability beyond measurable physiology.
+## Key finding
+Donors with similar physiological profiles may experience different outcomes, suggesting system-level variability beyond measurable biology.
 
 ## Methods
-- Python
-- pandas, NumPy
-- scikit-learn
-- statsmodels
-- UMAP
+K-means, GMM, UMAP, logistic regression, random forest (Python).
 
-## Data access
-The ORCHID dataset is not included here. Access requires credentialed access via PhysioNet and compliance with its data use conditions.
+## Data
+ORCHID dataset (PhysioNet, credentialed access required).
 
-## Files
-- `ORCHID_unsuperclustering_clean.ipynb`: cleaned notebook
-- `ORCHID_unsuperclustering_clean.py`: editable Python script
+## Author
+Antonio Gomes
